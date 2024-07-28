@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Exam">
+  <grid id="27dc6" binding="examPanel" layout-manager="GridLayoutManager" row-count="9" column-count="27" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="28" width="740" height="559"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="377ad" class="javax.swing.JLabel" binding="timerLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="27" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="SansSerif" size="18" style="1"/>
+          <text value="Label"/>
+        </properties>
+      </component>
+      <vspacer id="9093b">
+        <constraints>
+          <grid row="1" column="26" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="ca18e">
+        <constraints>
+          <grid row="5" column="24" row-span="4" col-span="3" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="e6c6" class="javax.swing.JButton" binding="skipOrResultButton">
+        <constraints>
+          <grid row="7" column="13" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Skip"/>
+        </properties>
+      </component>
+      <component id="e959a" class="javax.swing.JButton" binding="submitAndNextButton">
+        <constraints>
+          <grid row="7" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Submit and Next"/>
+        </properties>
+      </component>
+      <vspacer id="75dbd">
+        <constraints>
+          <grid row="2" column="26" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="f72a5">
+        <constraints>
+          <grid row="3" column="26" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="f5a3c">
+        <constraints>
+          <grid row="4" column="26" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="bae80">
+        <constraints>
+          <grid row="6" column="21" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="f1a15" class="javax.swing.JRadioButton" binding="radioButton4">
+        <constraints>
+          <grid row="6" column="3" row-span="1" col-span="12" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="SansSerif" size="14" style="0"/>
+          <text value="RadioButton"/>
+        </properties>
+      </component>
+      <component id="784b2" class="javax.swing.JRadioButton" binding="radioButton3">
+        <constraints>
+          <grid row="4" column="3" row-span="1" col-span="18" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="SansSerif" size="14" style="0"/>
+          <text value="RadioButton"/>
+        </properties>
+      </component>
+      <component id="af68c" class="javax.swing.JRadioButton" binding="radioButton2" default-binding="true">
+        <constraints>
+          <grid row="3" column="3" row-span="1" col-span="21" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="SansSerif" size="14" style="0"/>
+          <text value="RadioButton"/>
+        </properties>
+      </component>
+      <component id="c8560" class="javax.swing.JRadioButton" binding="radioButton1" default-binding="true">
+        <constraints>
+          <grid row="2" column="3" row-span="1" col-span="23" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="SansSerif" size="14" style="0"/>
+          <horizontalTextPosition value="11"/>
+          <text value="RadioButton"/>
+        </properties>
+      </component>
+      <component id="f16df" class="javax.swing.JLabel" binding="questionLabel">
+        <constraints>
+          <grid row="1" column="3" row-span="1" col-span="23" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="SansSerif" size="14" style="0"/>
+          <horizontalAlignment value="2"/>
+          <horizontalTextPosition value="2"/>
+          <text value="Label"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
